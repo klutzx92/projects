@@ -1,0 +1,12 @@
+---
+:id: 30643174
+:submitters:
+- :name: David Oh
+  :email: klutzx92@berkeley.edu
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2020-02-27 09:04:53.432101000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2020-02-27 01:04:53.432101000 Z
+:status: processed
+:score: 100.0
