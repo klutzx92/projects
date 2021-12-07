@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+	crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<title>Contact Info</title>
+</head>
+<body>
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+		<div class="container">
+			<a th:href="@{/}" class="navbar-brand">David Oh</a>
+
+			<button class="navbar-toggler" type="button"
+				data-bs-toggle="collapse" data-bs-target="#navmenu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navmenu">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item"><a th:href="@{/projects}" class="nav-link">Projects</a>
+					</li>
+					<li class="nav-item"><a th:href="@{/resume}" class="nav-link">Resume</a>
+					</li>
+					<li class="nav-item"><a th:href="@{/contactInfo}" class="nav-link">Contact
+							Info</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<section class="bg-light text-dark p-5 text-center">
+		<div class="container px-5">
+			<div class="row">
+				<div class="col d-none d-lg-block" style="max-width: 150px;">
+					<!-- Empty space LEFT -->
+				</div>
+
+				<div class="col" style="width: 300px;">
+					<div class="align-items-center justify-content-center">
+
+						<div class="container" style="max-width: 970px;">
+							<div class="px-5 py-3">
+								<h2>Contact Info</h2>
+								<p class="font-monospace">
+									david.oh5.cs@gmail.com <br>
+									213-393-5744
+								</p>
+								
+								<a href="https://www.linkedin.com/in/david5oh//"
+									target="_blank">LinkedIn</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="col d-none d-lg-block" style="max-width: 150px;">
+					<!-- Empty space RIGHT -->
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- bottom section picture -->
+	<section>
+			<img class="bg-image img-fluid" src="berkeley background.png" />
+			
+	</section>
+
+
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+		crossorigin="anonymous"></script>
+</body>
+</html>
